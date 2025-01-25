@@ -1,4 +1,4 @@
-package dev.hanlin.movies;
+package dev.hanlin.movies.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
