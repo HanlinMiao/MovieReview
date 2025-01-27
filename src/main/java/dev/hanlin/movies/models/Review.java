@@ -18,7 +18,10 @@ public class Review {
 
     private String body;
 
-    public Review(String body) {
+    private String userEmail;
+
+    public Review(String userEmail, String body) {
+        this.userEmail = userEmail;
         this.body = body;
     }
 }
